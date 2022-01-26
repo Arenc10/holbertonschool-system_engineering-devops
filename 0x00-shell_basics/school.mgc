@@ -1,2 +1,2 @@
 #!/bin/bash
-file file.txt
+file -f file.txt
