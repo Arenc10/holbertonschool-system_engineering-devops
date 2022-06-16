@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
+# Script that shows unlucky numbers
 i=1
 while (( i <= 20 ))
 do
