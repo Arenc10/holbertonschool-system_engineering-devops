@@ -1,0 +1,10 @@
+#!/usr/bin/env bash
+# Display To infinity and beyond with a sleep 2 in between. Recieve a Sigterm
+# Signal
+# shellcheck disable=SC2046
+while :
+do
+	echo "To infinity and beyond"
+	sleep 2
+	trap "echo I am invincible!!!" SIGTERM
+done
